@@ -175,7 +175,7 @@
 			data.forEach(item => {
 				const row = `<tr>
 					<td>${item.descricao}</td>
-					<td>R$ ${item.valor.toFixed(2)}</td>
+					<td align="right">R$ ${item.valor.toFixed(2)}</td>
 				</tr>`;
 				tabelaBody.innerHTML += row;
 			});
